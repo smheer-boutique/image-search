@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+faiss-cpu
+pillow
+numpy
+flask
+flask-cors
+torch
+torchvision
+numpy
+gunicorn
