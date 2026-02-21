@@ -20,7 +20,7 @@ index = faiss.read_index("faiss.index")
 # -----------------------------
 # MONGODB
 # -----------------------------
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://smheerboutique_db_user:31uRISckwFtiaAjg@cluster0.benpwit.mongodb.net/?appName=Cluster0")
 db = client["image_search"]
 collection = db["products"]
 
@@ -50,3 +50,4 @@ def search_similar(image_path, top_k=5):
 
 
     return results
+
